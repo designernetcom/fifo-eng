@@ -1202,7 +1202,7 @@ img{
 
 .hero-image-section {
   width: 100%;
-  min-height: 60vh;
+  /* min-height: 60vh; */
   overflow: hidden;
 }
 
@@ -1218,7 +1218,7 @@ img{
 @media (max-width: 991px) {
   .hero-image-section,
   .hero-image {
-    min-height: 50vh;
+    width:100% ;
   }
 }
 
@@ -1226,6 +1226,23 @@ img{
 @media (max-width: 576px) {
   .hero-image-section,
   .hero-image {
-    min-height: 40vh;
+    min-height: 100%;
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 906px) {
+  .service-detail_tag {
+    display: none !important;
+  }
+}
+
